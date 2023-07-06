@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/*
+#fcfcfc
+#111113
+#de1211
+#e41015
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(imagens/fundo2.png);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    min-width: 280px;
+    max-width: 800px;
+    min-height: 150px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+header > h1 {
+    color: #de1211;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+nav {
+    background-color: #de1211;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; 
+    transition-duration: 1s;
+}
+
+nav > a {
+    color: #fcfcfc;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav > a:hover {
+    background-color: #c20a0a;
+}
+
+main {
+    background-color: #fcfcfc;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 0px #111113;
+
+
+}
+
+main h1 {
+    color: #de1211;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 2.4em;
+
+
+}
+
+main h2 {
+    color: #fcfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    background-image: linear-gradient(to right, #de1211, transparent);
+    text-indent: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #c20a0a;
+    padding: 2px 6px;
+    
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #de1211;
+}
+
+main img {
+    width: 100%;
+}
+
+footer {
+    background-color: #111113;
+    color: #fcfcfc;
+    text-align: center;
+}
